@@ -1,6 +1,6 @@
 FROM homeassistant/home-assistant
 
-LABEL com.rivierakid.version=0.1.0
+LABEL com.rivierakid.version=0.1.1
 
 RUN apt-get update && \
 	apt-get upgrade -y && \
