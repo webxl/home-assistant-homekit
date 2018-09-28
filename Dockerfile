@@ -1,6 +1,6 @@
-FROM homeassistant/home-assistant
+FROM homeassistant/home-assistant:0.78.3
 
-LABEL com.rivierakid.version=0.1.1
+LABEL net.webxl.version=0.1.1
 
 RUN apt-get update && \
 	apt-get upgrade -y && \
